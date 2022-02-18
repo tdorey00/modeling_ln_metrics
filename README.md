@@ -5,7 +5,7 @@ Created By : Tyler Dorey
 The purose of this project is to model the trends in different functions of the general l<sub>n</sub> metric on sets of points in either 2d or 3d.  
 
 ## About the l<sub>n</sub> Metric:
-The l<sub>n</sub> metric is one of the most frequently used distance metrics in common geometry.  Without even knowing what the l<sub>n</sub> metric you are most likely already familiar with the Euclidean distance metric also known as the l<sub>2</sub> metric as n = 2 (more on that below):
+The l<sub>n</sub> metric is one of the most frequently used distance metrics in coordinate geometry.  Without even knowing what the l<sub>n</sub> metric you are most likely already familiar with the Euclidean distance metric also known as the l<sub>2</sub> metric as n = 2 (more on that below):
 
 ![euclideanMetric](https://user-images.githubusercontent.com/98759325/154756299-64f8fe4b-8497-482a-9b68-be89b83dac70.JPG)
 
