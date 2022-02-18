@@ -69,7 +69,6 @@ int main()
     Point b2(2, 0);
     Point c1(2, 1, 2);
     Point c2(2, 2, 1);
-    std::cout << (a1 == a2);
     std::cout << "Using the Taxicab metric(n=1): " << Point::distanceCalc(a1, a2, 1) << " and " << Point::distanceCalc(b1, b2, 1) << std::endl;
     std::cout << "Using the Euclidean metric(n=2): " << Point::distanceCalc(a1, a2, 2) << " and " << Point::distanceCalc(b1, b2, 2) << std::endl; 
     std::cout << "Using the l3 metric(n=3): " << Point::distanceCalc(a1, a2, 3) << " and " << Point::distanceCalc(b1, b2, 3) << std::endl;
