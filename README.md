@@ -37,3 +37,5 @@ Currently the project contains a simple Point struct which has the following fun
 
 #### Long Term Goals: 
 - Find a graphics library to create a GUI which the user can use to dynamically calculate distances between points and constructions 
+- Create a Excel Log of observations of Different Points
+- Create a research paper about a potential infinity model of l<sub>n</sub> metric (Possible, not yet planned)
