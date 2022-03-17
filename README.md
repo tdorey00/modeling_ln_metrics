@@ -4,7 +4,7 @@ Created By : Tyler Dorey
 
 The purose of this project is to model the trends in different functions of the general l<sub>n</sub> metric on sets of points in either 2d or 3d.  
 
-Please note this project was created in Visual Studio 2022 so you will need that version. 
+Please note this project was created in Visual Studio 2022 so you will need that version unless you plan on creating your own Visual Studio solution. 
 
 ## About the l<sub>n</sub> Metric:
 The l<sub>n</sub> metric is one of the most frequently used distance metrics in coordinate geometry.  Without even knowing what the l<sub>n</sub> metric is you are most likely already familiar with the Euclidean distance metric also known as the l<sub>2</sub> metric as n = 2 (more on that below):
@@ -37,3 +37,7 @@ Currently the project contains a simple Point struct which has the following fun
 
 #### Long Term Goals: 
 - Find a graphics library to create a GUI which the user can use to dynamically calculate distances between points and constructions 
+- Create a Excel Log of observations of Different Points
+- Create a research paper about a potential infinity model of l<sub>n</sub> metric (Possible, not yet planned)
+
+This project is licensed under the terms of the MIT license.
