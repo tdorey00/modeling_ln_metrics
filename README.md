@@ -27,6 +27,7 @@ Currently the project contains a simple Point struct which has the following fun
 3) 3d constructor - takes x, y, and z coordinates
 <br />**Please note:  For 2d points the z coordinate is initialized to NaN**
 - Overriden == and != operators for both 2d and 3d points
+- Overriden >> and << operators (NOTE: Input uses std::cout for prompts, also asks user if 2d or 3d)
 - Overriden subtraction operator (Do not mix 2d and 3d points, it will cause an error currently)
 - A function to check if a point is 3d
 - A distance calculation on two points requiring a value for n to determine which metric will be used
