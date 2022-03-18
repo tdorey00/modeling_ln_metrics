@@ -10,7 +10,7 @@
 #include <cmath>
 #include <math.h>
 #include "Point.h"
-using namespace std;
+
 namespace lnMetricModeling {
 
     //OPERATORS
@@ -56,7 +56,7 @@ namespace lnMetricModeling {
         }
     }
 
-    ostream& operator<<(ostream& output, Point& P)
+    std::ostream& operator<<(std::ostream& output, Point& P)
     {
         if (P.is2d(P)) { //2d
             output << "(" << P.x() << "," << P.y() << ")";
@@ -67,10 +67,10 @@ namespace lnMetricModeling {
         return output;
     }
    
-    istream& operator>>(istream& input, Point& P)
+    std::istream& operator>>(std::istream& input, Point& P)
     {
         double x, y, z;
-        string ans = "";
+        std::string ans = "";
         bool invalid = true;
         while (invalid) {
             std::cout << "Is the point 3d? (Y/N)";
@@ -108,7 +108,7 @@ namespace lnMetricModeling {
 
 /*
 using namespace lnMetricModeling;
-//testing the calculation
+//TESTING
 int main()
 {
     Point a1(0, 0);
